@@ -1,0 +1,58 @@
+* {
+    Padding: 0;
+    Margin: 0;
+    Box-Sizing: Border-Box;
+}
+Body {
+    Height: 100vh;
+    Background: purple;
+}
+.Container {
+    Position: Absolute;
+    Width: 50%;
+    Min-Width: 580px;
+    Transform: Translate(-50%, -50%);
+    Top: 50%;
+    Left: 50%;
+    Background: white;
+    Padding: 50px 10px;
+    Border-Radius: 5px;
+    Display: Grid;
+    Justify-Items: Center;
+    Font-Family: "Poppins", Sans-Serif;
+}
+H3 {
+    Font-Size: 30px;
+    Font-Weight: 600;
+    border-bottom: 2px solid purple;
+}
+Input[Type="Text"] {
+    Width: 90px;
+    Font-Weight: 600;
+    Padding: 20px 0;
+    Font-Size: 28px;
+    Text-Align: Center;
+    Margin-Top: 30px;
+    Border-Radius: 5px;
+    Border: 2px Solid green;
+    Color: black;
+}
+Button {
+    Width: 160px;
+    Padding: 15px 0;
+    Border-Radius: 5px;
+    Background-Color: purple;
+    Color: white;
+    Border: None;
+    Font-Size: 18px;
+    Font-Weight: 600;
+    Margin-Bottom: 30px;
+    cursor: pointer;
+}
+Button:hover{
+  background: aqua;
+  color: black;
+}
+P {
+    Font-Weight: 300;
+}
